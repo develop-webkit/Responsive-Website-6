@@ -1,0 +1,285 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media (min-width: 1400px) {
+	.whyus-sec .container {
+		max-width: 1530px;
+	}
+
+	.feature-sec .container {
+		max-width: 1470px;
+	}
+
+	.insta-sec .container {
+		max-width: 1360px;
+	}
+
+	.footer-sec .container-footer2x {
+		max-width: 1550px;
+	}
+
+	.under-footer .container-footer2x {
+		max-width: 1550px;
+	}
+
+	.career-sec .container {
+		max-width: 1470px;
+	}
+
+	.handcoin-sec .container {
+		max-width: 1470px;
+	}
+
+	.strategy-sec .container {
+		max-width: 1470px;
+	}
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+@media(max-width: 1500px) {
+
+	body,
+	html {
+		margin: 0;
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1500px) {
+
+	body,
+	html {
+		margin: 0;
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1200px) {
+
+	body,
+	html {
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.feature-sport {
+		font-size: 1.875rem;
+	}
+
+	.feature-main-inner {
+		min-height: 36rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 992px) {
+	.feature-main-inner {
+		min-height: 41rem;
+	}
+
+	body,
+	html {
+		margin: 0;
+		font-size: 13px;
+	}
+
+	.hero-sec {
+		background-position: 60% 60%;
+	}
+
+	.money-logos {
+		padding: 1rem 1rem;
+	}
+
+	.whyus-content2x {
+		margin-top: 2rem;
+	}
+
+	.over-all-content::after {
+		right: -1rem;
+	}
+}
+
+@media(max-width: 767px) {
+	.slick-standard img {
+		padding-right: 0.75rem;
+	}
+
+	.insta-sec {
+		padding: 3rem 0 10rem 0;
+	}
+
+	.feature-main-inner {
+		min-height: 35rem;
+	}
+
+	br {
+		display: none;
+	}
+
+	.feature-sec {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.over-all-content1x {
+		margin-top: 2rem;
+	}
+
+	.overall-sec {
+		padding: 2rem 0;
+	}
+
+	.over-all-content::after {
+		display: none;
+	}
+
+	.whyus-content2x .money-text {
+		max-width: 100%;
+	}
+
+	.whyus-sec {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.money-logos {
+		flex-direction: column;
+		margin-top: 3rem;
+	}
+
+	.money-sec {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.sport-head-hero {
+		font-size: 3.25rem;
+	}
+
+	.hero-sec {
+		min-height: 65vh;
+	}
+
+	.hero-sec {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.hero-content {
+		margin-top: 0;
+	}
+
+	.money-content-2x .money-text {
+		max-width: 100%;
+		margin-top: 3rem !important;
+	}
+
+	.money-head {
+		font-size: 2.25rem;
+		max-width: 100%;
+	}
+
+	.free-content {
+		padding: 1.5rem 1.5rem;
+	}
+
+	.free-content {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.free-content-inner1x {
+		width: 100%;
+	}
+
+	.free-content-inner2x {
+		width: 100%;
+		display: flex;
+		align-items: self-start;
+		justify-content: start;
+	}
+
+	.free-content-input {
+		width: 100%;
+	}
+
+	.money-content-build1x {
+		margin-bottom: 3rem;
+	}
+
+	.career-sec {
+		padding: 3rem 0;
+	}
+
+	.build-row1x {
+		flex-direction: column-reverse;
+	}
+
+	.handcoin-sec {
+		padding: 3rem 0;
+	}
+
+	.handcoin-content {
+		gap: 1.5rem;
+	}
+
+	.handcoin-content {
+		margin-bottom: 2rem;
+	}
+
+	.cheer-img img {
+		margin-top: 1rem;
+	}
+
+	.handcoin-content .money-text {
+		max-width: 33rem;
+	}
+
+	.strategy-sec {
+		padding-top: 15rem;
+		padding-bottom: 10rem;
+	}
+
+	.team-img {
+		margin-top: 3rem;
+	}
+
+	.strategy-content-inner .money-text {
+		max-width: 33rem;
+	}
+}
+
+@media(max-width: 570px) {
+	.sport-head-hero {
+		font-size: 2.5rem;
+	}
+
+	.hero-sec {
+		min-height: 60vh;
+		background-position: 50% 50%;
+	}
+
+	.hero-sec {
+		padding: 0;
+	}
+
+	.slick-standard img {
+		padding-right: 0.5rem;
+	}
+}
